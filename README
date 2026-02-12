@@ -32,7 +32,7 @@ El proyecto se divide en dos problemas fundamentales: Regresión Lineal para inv
  
  Comparativa de Modelos: Regresión LogísticaK-Nearest Neighbors (KNN)- Support Vector Machines (SVM)
  
- Conclusión Técnica: Se demostró que la normalización es el factor crítico. Con datos escalados, todos los modelos alcanzaron un Accuracy ≈ 0.94, demostrando que el problema se vuelve linealmente separable en el espacio de componentes principales.
+ Conclusión Técnica: Se demostró que la normalización es el factor crítico. Con datos escalados, todos los modelos alcanzaron un Accuracy ≈ 0.97, demostrando que el problema se vuelve linealmente separable en el espacio de componentes principales.
  
  🛠️ Instalación y Uso
  
