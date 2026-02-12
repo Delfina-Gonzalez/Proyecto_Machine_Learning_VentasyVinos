@@ -15,9 +15,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Archivos de datos (opcional si no querés subirlos)
-*.csv
-
 # Resultados / outputs
 *.png
 *.jpg
