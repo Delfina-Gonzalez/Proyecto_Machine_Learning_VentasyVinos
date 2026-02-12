@@ -1,6 +1,43 @@
-# 🧪**Trabajo Práctico Módulo 1**
-## Curso: Machine Learning con Python / Febrero 2026
-## Delfina González
+📊 Proyecto de Machine Learning: Predicción de Ventas y Clasificación de Vinos.
 
-- Encontrarán los ejercicios propuestos dentro de los archivos "Ejercicio_1-ipynb" y "Ejercicio_2.ipynb"
-- Para ejecutar correctamente los mismos se debe tener instaladas las librerías especificadas en el archivo "requirements.txt".
+El proyecto se divide en dos problemas fundamentales: Regresión Lineal para inversión publicitaria y Clasificación Multiclase mediante reducción de dimensionalidad (PCA).
+ 
+ 🚀 Estructura del Proyecto
+ 
+ El repositorio está organizado de la siguiente manera:
+ 
+ Ejercicio_1_Ventas.ipynb: Análisis de regresión lineal múltiple sobre el dataset de publicidad.
+ 
+ Ejercicio_2_Vinos.ipynb: Clasificación de vinos utilizando PCA y distintos modelos de clasificación.
+ 
+ advertising.csv: Dataset utilizado para el ejercicio de regresión.
+ 
+ requirements.txt: Librerías necesarias para ejecutar los notebooks.
+ 
+ 📺 Ejercicio 1: Regresión Lineal (Publicidad). Objetivo: Obtener un modelo que describa el comportamiento de las ventas en función de la inversión en diferentes canales de comunicación (TV, Radio, Prensa).
+ 
+ Análisis Exploratorio: Visualización de la dispersión de ventas.
+ 
+ Modelado: Implementación de una Regresión Lineal Múltiple.
+ 
+ Evaluación: Uso de métricas como el Error Cuadrático Medio ($MSE$) y el Coeficiente de Determinación ($R^2 \approx 0.90$).
+ 
+ Análisis de Sensibilidad: Se determinó que la TV es el medio con mayor impacto en el retorno de ventas, mientras que la Prensa presenta un impacto marginal.
+ 
+ 🍷 Ejercicio 2: Clasificación (Dataset Wine). Objetivo: Clasificar diferentes tipos de vinos utilizando sus atributos químicos, optimizando el rendimiento mediante preprocesamiento y reducción de dimensionalidad.
+ 
+ Preprocesamiento: Estandarización de datos (StandardScaler) fundamental para algoritmos basados en distancias y PCA.
+ 
+ PCA (Análisis de Componentes Principales): Reducción a 2 componentes para visualización y simplificación del modelo.
+ 
+ Comparativa de Modelos: Regresión LogísticaK-Nearest Neighbors (KNN)- Support Vector Machines (SVM)
+ 
+ Conclusión Técnica: Se demostró que la normalización es el factor crítico. Con datos escalados, todos los modelos alcanzaron un Accuracy ≈ 0.94, demostrando que el problema se vuelve linealmente separable en el espacio de componentes principales.
+ 
+ 🛠️ Instalación y Uso
+ 
+Clonar el repositorio:Bashgit clone https://github.com/Delfina-Gonzalez/Proyecto_Machine_Learning_VentasyVinos.git
+Instalar las dependencias:Bashpip install -r requirements.txt
+Ejecutar los notebooks en Jupyter o VS Code.✒️ AutoraDelfina González - Desarrollo y Análisis
+
+
