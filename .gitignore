@@ -19,3 +19,5 @@ Thumbs.db
 *.png
 *.jpg
 *.pdf
+
+.gitignore 
